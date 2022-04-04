@@ -50,8 +50,19 @@ table {
 
 
 /* my css code starts here*/ 
+body{
+  height: 1000vh;
+}
+.header{
+  background: linen;
+  position: sticky;
+  top: 0;
+  margin-bottom: 10%;
+}
 
 .tony{
+  position: sticky;
+  top: 0;
   border: 5px solid black;
   margin-right: 90%;
   margin-top:2px;
@@ -59,8 +70,26 @@ table {
   padding: 5px;
   
 }
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
 .tony1{
-  background-color: white;
+  background-color: linen;
   margin-left: 12px;
   font-weight: bolder;
+}
+
+.hello{
+  position: relative;
+ left:15%;
+ top:18px;
+ padding-left: 5px;
+ background: white;
+ 
+}
+.hor{
+  margin-left: 30px
 }
