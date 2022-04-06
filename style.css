@@ -139,6 +139,10 @@ background:
 .info{
   text-align: center;
   margin: 10px;
+  margin-bottom: 5vh;
+}
+.info span{
+  font-family: 'Saira Condensed', sans-serif;
 }
 
 .p-info{
@@ -152,20 +156,15 @@ background:
   font-size: 20px;
   margin: 2vh;
 }
-.web{
-  font-size: 18px;
-  font-family: 'Saira Condensed', sans-serif;
-}
+
 
 .phone{
   font-family: 'acme', sans-serif;
   font-size: 20px;
   margin: 2vh;
 }
-.phone1{
-  font-size: 18px;
-  font-family: 'Saira Condensed', sans-serif;
-}
+
+
 .mail{
   font-family: 'acme', sans-serif;
   font-size: 20px;
@@ -180,8 +179,32 @@ background:
   font-size: 20px;
   margin: 2vh;
 }
-.locate1{
-  font-size: 18px;
+
+div.lang{
+  padding-top: 2vh;
+  padding-bottom: 8vh;
+  background: white;
+  text-align: center;
+  margin: 0 25px 35px 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+}
+div.lang span{
   font-family: 'Saira Condensed', sans-serif;
+}
+
+.lang1{
+  font-family: 'acme', sans-serif;
+  margin-bottom: 5vh;
+  color: purple;
+  font-size: 20px;
+}
+.eng{
+  font-family: 'acme', sans-serif;
+  margin: 2vh;
+}
+.nig{
+  font-family: 'acme', sans-serif;
+  margin: 2vh;
 }
 
