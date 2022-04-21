@@ -56,9 +56,11 @@ body{
 }
 
 .navbar{
-  box-shadow: 3px 3px 3px 3px lightgrey;
+  box-shadow: 0 3px 3px 0 lightgrey;
   position: sticky;
   background: purple;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 .navbar-toggler {
@@ -129,17 +131,24 @@ body{
     background-color:purple;
 }
 
-.navbar-list li{
-  color: black;
-  margin: 3vh;
+.list li{
+  margin: 2vh;
+  font-size: 18px;
 }
 
-.navbar-list a{
+.list a{
   text-decoration: none;
+  color: purple;
 }
-.navbar-list a:hover{
-  color:purple;
+
+.list a:active{
+  color: black;
 }
+
+.list a:hover{
+  color:red;
+}
+
 
 
 
